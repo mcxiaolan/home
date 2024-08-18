@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="一个鸽子的主页~" />
+  <meta name="keywords" content="岚天呀,Lantianya,小岚,xiaolan,mcxiaolan,Homepage" />
+  <meta name="author" content="Dmego" />
+  <title>岚天呀的个人主页</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/vno.css" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <link rel="icon" href="./favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://registry.npmmirror.com/@fortawesome/fontawesome-free/6.6.0/files/css/all.css">
+  <script type="text/javascript">
+    function UnCryptMailto(s) {
+      var n = 0;
+      var r = "";
+      for (var i = 0; i < s.length; i++) {
+        n = s.charCodeAt(i);
+        if (n >= 8364) {
+          n = 128;
+        }
+        r += String.fromCharCode(n - 1);
+      }
+      return r;
+    }
+
+    function linkTo_UnCryptMailto(s) {
+      location.href = UnCryptMailto(s);
+    }
+  </script>
+</head>
+
+<body>
+  <span class="mobile btn-mobile-menu">
+    <i class="social iconfont icon-list btn-mobile-menu__icon"></i>
+    <i class="social iconfont icon-angleup btn-mobile-close__icon hidden"></i>
+  </span>
+  <header id="panel" class="panel-cover">
+    <div class="panel-main">
+      <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+          <div class="ih-item circle effect right_to_left">
+            <a href="#" title="" class="blog-button">
+              <div class="img">
+                <img src="https://hello.ltya.top/myavatar/500" alt="img" class="js-avatar iUp profilepic" />
+              </div>
+              <div class="info iUp">
+                <div class="info-back">
+                  <h2>2024</h2>
+                  <p>再努力一点</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <br>
+          <h1 class="panel-cover__title panel-title iUp">
+            <a href="#" title="Dmego Home">岚天呀</a>
+          </h1>
+          <p class="panel-cover__subtitle panel-subtitle iUp">
+            一个鸽子的主页
+          </p>
+          <hr class="panel-cover__divider iUp" />
+          <p id="description" class="panel-cover__description iUp">
+            如何得与凉风约, 不共尘沙一并来!
+            <br />
+            <strong>-「中牟道中」</strong>
+          </p>
+          <div class="navigation-wrapper iUp">
+            <div>
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item">
+                    <a href="https://blog.ltya.top" class="blog-button" target="_blank">博客</a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://blog.ltya.top/contact/" class="button" target="_blank">联系</a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://blog.ltya.top/about/" class="button" target="_blank">关于</a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://files.ltya.top" class="button" target="_blank">网盘</a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://status.ltya.top" class="button" target="_blank">网站状态</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="iUp">
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+                  <li class="navigation__item">
+                    <a href="https://github.com/mcxiaolan" title="Github" target="_blank">
+                      <i class="fa-brands fa-github"></i><!-- 图标库 https://fontawesome.com/search -->
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://blog.ltya.top/atom.xml" title="RSS" target="_blank">
+                      <i class="fa-solid fa-rss"></i>
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <!-- 加密邮箱，请看 README.md -->
+                    <a href="javascript:linkTo_UnCryptMailto('nbjmup;yjbpmboApvumppl/nz');" title="email">
+                      <!-- <a href="test@test.com" title="email"> -->
+                      <i class="fa-regular fa-envelope"></i>
+                    </a>
+                  </li>
+                  <li class="navigation__item">
+                    <a href="https://space.bilibili.com/355877984?from=search" title="Bilibili" target="_blank">
+                      <i class="fa-brands fa-bilibili"></i>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel-cover--overlay cover-slate"></div>
+    </div>
+    <!-- <div class="beian iUp">
+            <a class="icp" href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">XXX</a>
+            <a class="gwab" href="http://www.beian.gov.cn/portal/recordQuery" target="_blank">XXX</a>
+        </div> -->
+    <div class="copyright iUp">
+      <p class="power" id="background-copyright"></p>
+    </div>
+    <div class="remark iUp">
+      <p class="power">
+        Powered By
+        <a href="https://vercel.com" target="_blank">
+          Vercel
+        </a>
+        | Modified from
+        <a href="https://github.com/dmego/home.github.io" target="_blank">
+          Dmego
+        </a>
+      </p>
+    </div>
+  </header>
+  <script type="text/javascript" src="./assets/js/main.js"></script>
+  <script type="text/javascript" src="./assets/json/images.json?cb=getBingImages"></script>
+</body>
+
+</html>
