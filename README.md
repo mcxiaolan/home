@@ -1,5 +1,7 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/ltya.top.svg)](http://ltya.top)
 
+Fork form [dmego/home.github.io](https://github.com/dmego/home.github.io)
+
 ### 注
 
 - 使用了 [一言](http://hitokoto.cn/) 的 API 服务
